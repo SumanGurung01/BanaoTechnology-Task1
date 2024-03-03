@@ -1,0 +1,65 @@
+.group__location {
+    border-bottom: 1px solid rgb(193, 193, 193);
+    padding: 10px;
+    gap: 10px;
+}
+
+.group__location>p {
+    margin: 0;
+    flex: 1
+}
+
+.group__notice {
+    justify-content: start;
+    align-items: start;
+    padding: 10px;
+}
+
+.group__notice>img {
+    margin: 5px 0 0 0
+}
+
+.group__notice>p {
+    margin: 0 0 0 10px
+}
+
+.group__recommended {
+    justify-content: start;
+    gap: 10px;
+    padding: 30px 10px 10px 10px;
+}
+
+.group__recommended>h6 {
+    margin: 0
+}
+
+.groupsection {
+    justify-content: start;
+    padding: 10px;
+}
+
+.groupsection>h6 {
+    flex: 1;
+    margin: 0px 10px 0px 10px
+}
+
+.groupsection>button {
+    border: none;
+    border-radius: 100px;
+    padding: 5px;
+    width: 100px;
+}
+
+.see-more {
+    padding: 10px;
+    margin-top: 50px;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.black {
+    background-color: rgb(47, 47, 47);
+    color: #ffffff
+}

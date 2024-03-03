@@ -1,0 +1,37 @@
+.content__post {
+    width: 60%;
+}
+
+.content__group {
+    width: 30%;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__container {
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+    .content__post {
+        width: 100%;
+    }
+
+    .content__group {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1280px) {
+
+    .content__group {
+        width: 40%;
+    }
+}

@@ -1,0 +1,29 @@
+.modal-header {
+    background-color: rgb(234, 255, 241)
+}
+
+.dialog__heading {
+    justify-content: start;
+    margin: 10px 0px 10px 0px
+}
+
+.dialog__heading>p {
+    margin: 0;
+}
+
+
+.dialog__heading>h5 {
+    margin: 0;
+}
+
+.dialog__container>div {
+    width: 50%;
+}
+
+.dialog__container>div:nth-child(2)>img {
+    width: 100%;
+}
+
+.dialog__container {
+    align-items: start;
+}

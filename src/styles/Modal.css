@@ -1,0 +1,52 @@
+.offcanvas-bottom {
+    height: 500px;
+}
+
+.offcanvas-bottom {
+    padding: 10px;
+}
+
+
+.form>input,
+.form>div>input {
+    width: 100%;
+    outline: none;
+    border: 1px solid rgb(224, 224, 224);
+    background-color: rgb(248, 254, 255);
+    padding: 10px;
+}
+
+.form__button {
+    width: 50%;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+
+.form__button__container {
+    margin: 20px 0px 20px 0px
+}
+
+.form__button__container>div {
+    justify-content: space-between;
+}
+
+.mylink {
+    color: black
+}
+
+.signin-button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(227, 227, 227);
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+
+.signin-button>img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+/* 
+@media only screen and (min-width: 600px) and (max-width: 1280px) {} */

@@ -1,0 +1,38 @@
+.navbar__component {
+    justify-content: space-between;
+    padding: 15px;
+    gap: 30px;
+}
+
+.navbar__component>p {
+    margin: 0
+}
+
+.navbar__input {
+    background-color: rgb(240, 240, 240);
+    border-radius: 100px;
+    flex: 1;
+    max-width: 600px;
+}
+
+.navbar__input>input {
+    outline: none;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+    border-radius: 100px;
+}
+
+
+.navbar__input>img {
+    margin: 10px 0px 10px 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar__component {
+        display: none
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1280px) {}
